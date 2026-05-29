@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow Semi Condensed');
+ .attribution { font-size: 0.6875rem; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+ p , h3 { 
+    margin: 0;
+    padding: 0;
+ }
+ body { 
+    font-family: "Barlow Semi Condensed";
+    background-color: hsl(260, 100%, 95%);
+ }
+
+.grid-container {
+    max-width: 86%;
+    margin: 67px auto;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 40px 240px;
+    align-items: center;
+}
+
+.profile > p {
+    padding: 4px;
+}
+
+p, h3 {
+    line-height: 1.5em;
+}
+
+h3 {
+margin: 19px 0;
+}
+
+img {
+    width:35px;
+border-radius: 50%;
+
+}
+
+.grid-container > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-radius: 8px;
+    margin-top: 34px;
+    box-shadow: 18px 48px 16px hsl(260, 3%, 81%);
+}
+
+.grid-container > div:nth-child(1) {
+ background-color: hsl(263, 55%, 52%);
+ color: hsl(0, 0%, 100%);
+}
+
+.grid-container > div:nth-child(2) {
+ background-color: hsl(217, 19%, 35%);
+ color: hsl(0, 0%, 100%);
+}
+
+.grid-container > div:nth-child(3) {
+ background-color: hsl(0, 0%, 100%);
+ color: hsl(217, 19%, 35%);
+}
+
+.grid-container > div:nth-child(4) {
+ color: hsl(0, 0%, 81%);
+ background-color: hsl(219, 29%, 14%);
+}
+
+.grid-container > div:nth-child(5) {
+ background-color: hsl(0, 0%, 100%);
+ color: hsl(217, 19%, 35%);
+}
+
+
+div p {
+    font-size: 13px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
