@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://testimonials-grid-section-main-nu-lovat.vercel.app/)
+- Live Site URL: [testimonials-grid-section-main](https://testimonials-grid-section-main-nu-lovat.vercel.app/)
 
 ## My process
 - I used a Mobile-first workflow to develop the web page and CSS grid.
